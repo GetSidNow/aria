@@ -120,7 +120,7 @@
         </svg>
       </button>
       
-      <!-- Navigation Bar (House Rules tab is now reintroduced) -->
+      <!-- Navigation Bar -->
       <nav id="navBar" class="flex overflow-x-auto border-b" style="border-color: #ddd;">
         <button class="tab active" onclick="switchTab('welcome')">Welcome Home</button>
         <button class="tab" onclick="switchTab('policies')">House Rules</button>
@@ -177,7 +177,7 @@
         </div>
       </div>
 
-      <!-- House Rules Section (Separate Tab) -->
+      <!-- House Rules Section -->
       <div id="policies" class="tab-content">
         <div class="card p-6 rounded-lg">
           <h3 class="text-xl font-semibold mb-4 accent">House Rules</h3>
@@ -327,9 +327,10 @@
         </div>
       </div>
 
-      <!-- Explore Local / Area Guide Section -->
+      <!-- Explore Local / Area Guide Section with Additional Options -->
       <div id="area" class="tab-content">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Existing Cards -->
           <div class="card p-6 rounded-lg">
             <h3 class="text-xl font-semibold mb-4 accent">
               <a href="https://www.google.com/maps/search/?api=1&query=Shoreline+Lake" target="_blank" class="hover:underline">
@@ -363,6 +364,23 @@
               </a>
             </h3>
             <p class="text-sm mb-2">Great for a relaxing stroll</p>
+          </div>
+          <!-- New Cards -->
+          <div class="card p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4 accent">
+              <a href="https://www.google.com/maps/search/?api=1&query=Castro+Street,+San+Francisco,+CA" target="_blank" class="hover:underline">
+                Castro Street
+              </a>
+            </h3>
+            <p class="text-sm mb-2">Eclectic shops & dining</p>
+          </div>
+          <div class="card p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4 accent">
+              <a href="https://www.google.com/maps/search/?api=1&query=Stanford+University" target="_blank" class="hover:underline">
+                Stanford University
+              </a>
+            </h3>
+            <p class="text-sm mb-2">Iconic campus with museums & gardens</p>
           </div>
         </div>
       </div>
